@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Button from '@material-ui/core/Button'
+import GoogleAuth from './GoogleAuth'
 
 
 export class TopBar extends React.Component {
@@ -10,8 +11,8 @@ export class TopBar extends React.Component {
               <Title>
               Hawes Magic Team
               </Title>
-              <Button >Submit Comment</Button>
-              {/* {this.props.displayErrorMessage && <span>{this.props.children}</span>} */}
+              <GoogleAuth/>
+              <Button>Submit Comment</Button>
           </Header>
       )
   }
