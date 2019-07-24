@@ -1,4 +1,3 @@
-
 //connecttodb 
 const knex = require('knex')({
   client: 'mysql',
@@ -19,5 +18,7 @@ knex.schema('comments', (table) => {
   table.string('comments');
   table.integer('user_rating');
 })
+
+
 
 

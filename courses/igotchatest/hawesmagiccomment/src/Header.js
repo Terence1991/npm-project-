@@ -9,9 +9,9 @@ export class TopBar extends React.Component {
       return (
           <Header onClick={this.props.refershteamselection}>
               <Title>
-              Hawes Magic Team
-              </Title>
-              <GoogleAuth/>
+              Hawes Magic Game review
+            </Title>
+            <GoogleAuth/>
               <Button>Submit Comment</Button>
           </Header>
       )
